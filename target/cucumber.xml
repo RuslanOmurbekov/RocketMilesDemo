@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="176.837989">
+<testcase classname="Testing a Facebook API" name="Number of friends retreival from a web service" time="6.305808">
+<system-out><![CDATA[When the user sends GET request.............................................passed
+Then the user should get requested information with status code "200" and number of friends of "258".passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing a Facebook API" name="Email HomeTown retreival from a web service" time="0.733527">
+<system-out><![CDATA[When the user sends request to get email and hometown.......................passed
+Then the user should get requested information with "rusi21@rambler.ru" and "Naryn".passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality" name="Login Credentials" time="29.515631">
+<system-out><![CDATA[When the home page opens enter user credentials.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality" name="search for hotel" time="29.076326">
+<system-out><![CDATA[Given the user is on the home page..........................................passed
+When the user enters location "Chicago, IL, United States" and selects rewards program "Amazon.com Gift Card".passed
+And the user selects start date "05/01/2019" and end date "05/29/2019"......passed
+And the user selects number of guests "1 Guest" and number of rooms "1 Room".passed
+And the user clicks search..................................................passed
+Then the user should see results "accept" for "Chicago, IL, United States" and "Amazon.com Gift Card".passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality" name="search for hotel 2" time="46.404001">
+<system-out><![CDATA[Given the user is on the home page..........................................passed
+When the user enters location "New York City, NY, United States" and selects rewards program "Uber".passed
+And the user selects start date "06/20/2019" and end date "06/25/2019"......passed
+And the user selects number of guests "2 Guests" and number of rooms "2 Rooms".passed
+And the user clicks search..................................................passed
+Then the user should see results "accept" for "New York City, NY, United States" and "Uber".passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality" name="search for hotel 3" time="30.123423">
+<system-out><![CDATA[Given the user is on the home page..........................................passed
+When the user enters location "Augusta, ME, USA" and selects rewards program "Aeroplan".passed
+And the user selects start date "07/09/2019" and end date "07/17/2019"......passed
+And the user selects number of guests "3 Guests" and number of rooms "3 Rooms".passed
+And the user clicks search..................................................passed
+Then the user should see results "accept" for "Augusta, ME, USA" and "Aeroplan".passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality" name="search for hotel 4" time="19.641733">
+<system-out><![CDATA[Given the user is on the home page..........................................passed
+When the user enters location "" and selects rewards program "".............passed
+And the user selects start date "07/09/2019" and end date "07/17/2019"......passed
+And the user selects number of guests "3 Guests" and number of rooms "3 Rooms".passed
+And the user clicks search..................................................passed
+Then the user should see results "reject" for "" and "".....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality" name="search by leaving rewards program empty" time="13.433054">
+<system-out><![CDATA[Given the user is on the home page..........................................passed
+When the user enters location "Chicago, IL, United States"..................passed
+And the user clicks search..................................................passed
+Then the user should see alert message for rewards program..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality" name="tearDown" time="1.604486">
+<system-out><![CDATA[When close browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
