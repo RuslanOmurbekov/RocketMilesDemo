@@ -1,11 +1,11 @@
 Feature: Testing a Facebook API 
 
-@tag 
+@get
 Scenario: Number of friends retreival from a web service 
 
 	When the user sends GET request 
 	Then the user should get requested information with status code "200" and number of friends of "258" 
-@tag 
+@get
 Scenario Outline: Email HomeTown retreival from a web service 
 
 	When the user sends request to get email and hometown 

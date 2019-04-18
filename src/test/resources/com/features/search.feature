@@ -1,9 +1,7 @@
 Feature: Search functionality 
-@tag 
-Scenario: Login Credentials 
-	When the home page opens enter user credentials 
-	
-@tag 
+
+
+@PositiveTest 
 Scenario Outline: search for hotel 
 	Given the user is on the home page 
 	When  the user enters location "<location>" and selects rewards program "<rewProgram>" 
@@ -26,6 +24,6 @@ Scenario Outline: search for hotel
 			And   the user clicks search 
 			Then  the user should see alert message for rewards program 
 			
-		@tag 
+			@close
 		Scenario: tearDown 
-			When close browser
+			Then close browser

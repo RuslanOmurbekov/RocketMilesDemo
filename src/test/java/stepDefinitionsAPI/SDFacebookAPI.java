@@ -23,7 +23,7 @@ public class SDFacebookAPI {
 
 	@When("the user sends GET request")
 	public void the_user_sends_GET_request() {
-		url = ConfigurationReader.getProperty("facebookurl") + ConfigurationReader.getProperty("facebookfriends");
+		url = ConfigurationReader.getProperty("facebookurl") + System.getProperty("facebookfriends");
 
 	}
 
@@ -34,6 +34,7 @@ public class SDFacebookAPI {
 		int expectedSummary = Integer.parseInt(numOfFriends);
 
 		response = given().accept(ContentType.JSON).when().get(url);
+
 		// .then().assertThat().statusCode(200).assertThat().body("summary.total_count",
 		// hasItem("258.0"));
 
@@ -46,8 +47,7 @@ public class SDFacebookAPI {
 
 	@When("the user sends request to get email and hometown")
 	public void the_user_sends_request_to_get_email_and_hometown() {
-		url = ConfigurationReader.getProperty("facebookurl")
-				+ ConfigurationReader.getProperty("facebookEmailPhoneHometown");
+		url = ConfigurationReader.getProperty("facebookurl") + System.getProperty("facebookEmailPhoneHometown");
 	}
 
 	@Then("the user should get requested information with {string} and {string}")

@@ -12,8 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10038452,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "the user sends GET request",
@@ -24,8 +23,7 @@
           },
           {
             "result": {
-              "duration": 6260949915,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "the user should get requested information with status code \"200\" and number of friends of \"258\"",
@@ -47,7 +45,7 @@
         ],
         "tags": [
           {
-            "name": "@tag"
+            "name": "@get"
           }
         ]
       },
@@ -61,8 +59,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1032649,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "the user sends request to get email and hometown",
@@ -73,8 +70,7 @@
           },
           {
             "result": {
-              "duration": 728421874,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "the user should get requested information with \"rusi21@rambler.ru\" and \"Naryn\"",
@@ -96,7 +92,7 @@
         ],
         "tags": [
           {
-            "name": "@tag"
+            "name": "@get"
           }
         ]
       }
@@ -112,34 +108,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "Login Credentials",
-        "description": "",
-        "id": "search-functionality;login-credentials",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 29504004271,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "the home page opens enter user credentials",
-            "match": {
-              "location": "SDSearch.the_home_page_opens_enter_user_credentials()"
-            },
-            "keyword": "When "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@tag"
-          }
-        ]
-      },
-      {
-        "line": 16,
+        "line": 14,
         "name": "search for hotel",
         "description": "",
         "id": "search-functionality;search-for-hotel;;2",
@@ -148,10 +117,9 @@
         "steps": [
           {
             "result": {
-              "duration": 9392366773,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 8,
+            "line": 6,
             "name": "the user is on the home page",
             "match": {
               "location": "SDSearch.the_user_is_on_the_home_page()"
@@ -160,10 +128,9 @@
           },
           {
             "result": {
-              "duration": 6092505348,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 9,
+            "line": 7,
             "name": "the user enters location \"Chicago, IL, United States\" and selects rewards program \"Amazon.com Gift Card\"",
             "match": {
               "arguments": [
@@ -182,10 +149,9 @@
           },
           {
             "result": {
-              "duration": 846595418,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 10,
+            "line": 8,
             "name": "the user selects start date \"05/01/2019\" and end date \"05/29/2019\"",
             "match": {
               "arguments": [
@@ -204,10 +170,9 @@
           },
           {
             "result": {
-              "duration": 251428167,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 11,
+            "line": 9,
             "name": "the user selects number of guests \"1 Guest\" and number of rooms \"1 Room\"",
             "match": {
               "arguments": [
@@ -226,10 +191,9 @@
           },
           {
             "result": {
-              "duration": 2317107870,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 12,
+            "line": 10,
             "name": "the user clicks search",
             "match": {
               "location": "SDSearch.the_user_clicks_search()"
@@ -238,10 +202,9 @@
           },
           {
             "result": {
-              "duration": 10168136370,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 13,
+            "line": 11,
             "name": "the user should see results \"accept\" for \"Chicago, IL, United States\" and \"Amazon.com Gift Card\"",
             "match": {
               "arguments": [
@@ -265,12 +228,12 @@
         ],
         "tags": [
           {
-            "name": "@tag"
+            "name": "@PositiveTest"
           }
         ]
       },
       {
-        "line": 17,
+        "line": 15,
         "name": "search for hotel",
         "description": "",
         "id": "search-functionality;search-for-hotel;;3",
@@ -279,10 +242,9 @@
         "steps": [
           {
             "result": {
-              "duration": 9444789844,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 8,
+            "line": 6,
             "name": "the user is on the home page",
             "match": {
               "location": "SDSearch.the_user_is_on_the_home_page()"
@@ -291,10 +253,9 @@
           },
           {
             "result": {
-              "duration": 5864141688,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 9,
+            "line": 7,
             "name": "the user enters location \"New York City, NY, United States\" and selects rewards program \"Uber\"",
             "match": {
               "arguments": [
@@ -313,10 +274,9 @@
           },
           {
             "result": {
-              "duration": 680313934,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 10,
+            "line": 8,
             "name": "the user selects start date \"06/20/2019\" and end date \"06/25/2019\"",
             "match": {
               "arguments": [
@@ -335,10 +295,9 @@
           },
           {
             "result": {
-              "duration": 236023672,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 11,
+            "line": 9,
             "name": "the user selects number of guests \"2 Guests\" and number of rooms \"2 Rooms\"",
             "match": {
               "arguments": [
@@ -357,10 +316,9 @@
           },
           {
             "result": {
-              "duration": 3052148738,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 12,
+            "line": 10,
             "name": "the user clicks search",
             "match": {
               "location": "SDSearch.the_user_clicks_search()"
@@ -369,10 +327,9 @@
           },
           {
             "result": {
-              "duration": 27121438524,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 13,
+            "line": 11,
             "name": "the user should see results \"accept\" for \"New York City, NY, United States\" and \"Uber\"",
             "match": {
               "arguments": [
@@ -396,12 +353,12 @@
         ],
         "tags": [
           {
-            "name": "@tag"
+            "name": "@PositiveTest"
           }
         ]
       },
       {
-        "line": 18,
+        "line": 16,
         "name": "search for hotel",
         "description": "",
         "id": "search-functionality;search-for-hotel;;4",
@@ -410,10 +367,9 @@
         "steps": [
           {
             "result": {
-              "duration": 10164122207,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 8,
+            "line": 6,
             "name": "the user is on the home page",
             "match": {
               "location": "SDSearch.the_user_is_on_the_home_page()"
@@ -422,10 +378,9 @@
           },
           {
             "result": {
-              "duration": 5946550369,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 9,
+            "line": 7,
             "name": "the user enters location \"Augusta, ME, USA\" and selects rewards program \"Aeroplan\"",
             "match": {
               "arguments": [
@@ -444,10 +399,9 @@
           },
           {
             "result": {
-              "duration": 893437471,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 10,
+            "line": 8,
             "name": "the user selects start date \"07/09/2019\" and end date \"07/17/2019\"",
             "match": {
               "arguments": [
@@ -466,10 +420,9 @@
           },
           {
             "result": {
-              "duration": 272226860,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 11,
+            "line": 9,
             "name": "the user selects number of guests \"3 Guests\" and number of rooms \"3 Rooms\"",
             "match": {
               "arguments": [
@@ -488,10 +441,9 @@
           },
           {
             "result": {
-              "duration": 2730453308,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 12,
+            "line": 10,
             "name": "the user clicks search",
             "match": {
               "location": "SDSearch.the_user_clicks_search()"
@@ -500,10 +452,9 @@
           },
           {
             "result": {
-              "duration": 10111531721,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 13,
+            "line": 11,
             "name": "the user should see results \"accept\" for \"Augusta, ME, USA\" and \"Aeroplan\"",
             "match": {
               "arguments": [
@@ -527,12 +478,12 @@
         ],
         "tags": [
           {
-            "name": "@tag"
+            "name": "@PositiveTest"
           }
         ]
       },
       {
-        "line": 19,
+        "line": 17,
         "name": "search for hotel",
         "description": "",
         "id": "search-functionality;search-for-hotel;;5",
@@ -541,10 +492,9 @@
         "steps": [
           {
             "result": {
-              "duration": 8197391060,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 8,
+            "line": 6,
             "name": "the user is on the home page",
             "match": {
               "location": "SDSearch.the_user_is_on_the_home_page()"
@@ -553,10 +503,9 @@
           },
           {
             "result": {
-              "duration": 5049030247,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 9,
+            "line": 7,
             "name": "the user enters location \"\" and selects rewards program \"\"",
             "match": {
               "arguments": [
@@ -575,10 +524,9 @@
           },
           {
             "result": {
-              "duration": 949908569,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 10,
+            "line": 8,
             "name": "the user selects start date \"07/09/2019\" and end date \"07/17/2019\"",
             "match": {
               "arguments": [
@@ -597,10 +545,9 @@
           },
           {
             "result": {
-              "duration": 267735563,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 11,
+            "line": 9,
             "name": "the user selects number of guests \"3 Guests\" and number of rooms \"3 Rooms\"",
             "match": {
               "arguments": [
@@ -619,10 +566,9 @@
           },
           {
             "result": {
-              "duration": 122866881,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 12,
+            "line": 10,
             "name": "the user clicks search",
             "match": {
               "location": "SDSearch.the_user_clicks_search()"
@@ -631,10 +577,9 @@
           },
           {
             "result": {
-              "duration": 5050256945,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 13,
+            "line": 11,
             "name": "the user should see results \"reject\" for \"\" and \"\"",
             "match": {
               "arguments": [
@@ -658,12 +603,12 @@
         ],
         "tags": [
           {
-            "name": "@tag"
+            "name": "@PositiveTest"
           }
         ]
       },
       {
-        "line": 23,
+        "line": 21,
         "name": "search by leaving rewards program empty",
         "description": "",
         "id": "search-functionality;search-by-leaving-rewards-program-empty",
@@ -672,10 +617,9 @@
         "steps": [
           {
             "result": {
-              "duration": 7901222285,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 24,
+            "line": 22,
             "name": "the user is on the home page",
             "match": {
               "location": "SDSearch.the_user_is_on_the_home_page()"
@@ -684,10 +628,9 @@
           },
           {
             "result": {
-              "duration": 5284584015,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 25,
+            "line": 23,
             "name": "the user enters location \"Chicago, IL, United States\"",
             "match": {
               "arguments": [
@@ -702,10 +645,9 @@
           },
           {
             "result": {
-              "duration": 192739958,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 26,
+            "line": 24,
             "name": "the user clicks search",
             "match": {
               "location": "SDSearch.the_user_clicks_search()"
@@ -714,10 +656,9 @@
           },
           {
             "result": {
-              "duration": 50958567,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 27,
+            "line": 25,
             "name": "the user should see alert message for rewards program",
             "match": {
               "location": "SDSearch.the_user_should_see_alert_message_for_rewards_program()"
@@ -732,7 +673,7 @@
         ]
       },
       {
-        "line": 30,
+        "line": 28,
         "name": "tearDown",
         "description": "",
         "id": "search-functionality;teardown",
@@ -741,20 +682,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1603035393,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 31,
+            "line": 29,
             "name": "close browser",
             "match": {
               "location": "SDSearch.close_browser()"
             },
-            "keyword": "When "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@tag"
+            "name": "@close"
           }
         ]
       }

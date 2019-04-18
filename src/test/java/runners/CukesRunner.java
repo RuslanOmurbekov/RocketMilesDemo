@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 
 		features = { "src/test/resources/com/features" }, 
 		glue = { "stepdefinitions", "stepDefinitionsAPI" }, 
-		tags = {"@tag,@NegativeTest"}
+		tags = {"@get,@PositiveTest,@NegativeTest,@close"}
         // ,dryRun = true
 )
 public class CukesRunner {

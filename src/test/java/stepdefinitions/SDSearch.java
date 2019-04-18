@@ -12,26 +12,15 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageobjects.POSearch;
 import utilities.ConfigurationReader;
-import utilities.Credentials;
 import utilities.Driver;
 
 public class SDSearch {
 	POSearch search = new POSearch();
 
-	// This method was used because, anytime when i use work computer,
-	// it's asking extra credentials to put in order to go to any website
-	// You don't have to use this method
-	/*@When("the home page opens enter user credentials")
-	public void the_home_page_opens_enter_user_credentials() {
-		Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-		Driver.getDriver().manage().window().maximize();
-		Credentials.signIn();
-	}*/
-
 	@Given("the user is on the home page")
 	public void the_user_is_on_the_home_page() {
 		Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-		 Driver.getDriver().manage().window().maximize();
+		Driver.getDriver().manage().window().maximize();
 		Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		try {
 			search.close.click();
