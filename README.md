@@ -17,5 +17,5 @@ In order to run tests:
    -ea -Dfacebookfriends="/friends?access_token=EAAeKBsPjdP0BAGEE2er5gZBCncxursd77ihD0g4PwZBfQQWqm3h2KxPIQ1vgH9eRbJZAEkgTahddho8EhGXGho5a5dVLFOxm4Bav8M2ZBZAYN7gc512EvvWLV0kB4PuRZAT1KtMenA8JzsynnelZASRVlZCLDbMfdZBsZD"
 -Dfacebookfeeds="/feed?access_token=EAAeKBsPjdP0BAGEE2er5gZBCncxursd77ihD0g4PwZBfQQWqm3h2KxPIQ1vgH9eRbJZAEkgTahddho8EhGXGho5a5dVLFOxm4Bav8M2ZBZAYN7gc512EvvWLV0kB4PuRZAT1KtMenA8JzsynnelZASRVlZCLDbMfdZBsZD"
 -DfacebookEmailPhoneHometown="?fields=birthday,email,hometown&access_token=EAAeKBsPjdP0BAGEE2er5gZBCncxursd77ihD0g4PwZBfQQWqm3h2KxPIQ1vgH9eRbJZAEkgTahddho8EhGXGho5a5dVLFOxm4Bav8M2ZBZAYN7gc512EvvWLV0kB4PuRZAT1KtMenA8JzsynnelZASRVlZCLDbMfdZBsZD"
-
-   4. Apply and Run
+    
+    4. Apply and Run
